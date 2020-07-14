@@ -37,10 +37,10 @@
 # print(type(x))
 
 # 1.5.3 넘파이의 산술연산
-print(" ")
-print("# 1.5.3 넘파이의 산술연산")
+# print(" ")
+# print("# 1.5.3 넘파이의 산술연산")
 
-import numpy as np
+# import numpy as np
 
 # x = np.array([1.0, 2.0, 3.0])
 # y = np.array([2.0, 4.0, 6.0])
@@ -49,9 +49,17 @@ import numpy as np
 # print(x * y)  # 원소별 곱셈
 # print(x / y)  # 원소별 나눗셈
 
-x = np.array([1.0, 2.0, 3.0])
-print(x / 2.0)
+# x = np.array([1.0, 2.0, 3.0])
+# print(x / 2.0)
 
-# 1.5.
-# print(" ")
-# print("# 1.5.3 넘파이의 산술연산")
+# 1.5.4 넘파이의 N차원 배열
+print(" ")
+print("# 1.5.4 넘파이의 N차원 배열")
+
+import numpy as np
+
+A = np.array([[1, 2], [3, 4]])
+print(A)
+print(A.shape)
+print(A.dtype)
+
