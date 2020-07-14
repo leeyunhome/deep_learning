@@ -1,7 +1,10 @@
-a = type(10)
-b = type(2.718)
-c = type('hello')
+x = 10      # 초기화
+print(x)    # x의 값 출력
 
-print(a)
-print(b)
-print(c)
+x = 100     # 변수에 값 대입
+print(x)
+
+y = 3.14
+x * y
+print(x * y)
+print(type(x * y))
