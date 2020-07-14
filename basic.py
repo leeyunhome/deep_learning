@@ -1,10 +1,9 @@
-x = 10      # 초기화
-print(x)    # x의 값 출력
+a = [1, 2, 3, 4, 5]
+print(a)
+print(len(a))
 
-x = 100     # 변수에 값 대입
-print(x)
+print(a[0])
+print(a[4])
 
-y = 3.14
-x * y
-print(x * y)
-print(type(x * y))
+a[4] = 99
+print(a)
