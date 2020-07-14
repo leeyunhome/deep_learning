@@ -7,3 +7,7 @@ print(a[4])
 
 a[4] = 99
 print(a)
+
+print(a[0:2])
+print(a[1:])
+print(a[:-1])
