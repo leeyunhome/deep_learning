@@ -71,8 +71,19 @@
 # print(A * 10)
 
 # 1.5.5 브로드캐스트
-import numpy as np
+# import numpy as np
 
-A = np.array([[1, 2], [3, 4]])
-B = np.array([10, 20])
-print(A * B)
+# A = np.array([[1, 2], [3, 4]])
+# B = np.array([10, 20])
+# print(A * B)
+
+# 1.5.6 원소 접근
+
+import numpy as np
+X = np.array([[51, 55], [14, 19], [0, 4]])
+print(X)
+print("X[0] : ", X[0])
+print("X[0][1] : ", X[0][1])
+
+for row in X:
+    print(row)
