@@ -1,4 +1,4 @@
-fruits = ['apple', 'apple', 'apple', 'banana', 'banana', 'kiwi', 'kiwi', 'strawberry']
+fruits = ['apple', 'apple', 'apple', 'banana', 'banana', 'kiwi', 'kiwi', 'strawberry', 'pineapple']
 
 g = {}
 
