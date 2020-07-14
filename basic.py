@@ -1,10 +1,10 @@
-hungry = True
-if hungry:
-    print('I\'m hungry')
+# 1.3.8 for 문
+for index in[1, 2, 3]:
+    print(index)
 
-hungry = False
-if hungry:
-    print('I\'m hungry')
-else:
-    print("I'm not hungry")
-    print("I'm sleepy")
+# 1.3.9 함수
+def hello(object):
+    print("Hello " + object + "!")
+
+hello("neuezeal!")
+
