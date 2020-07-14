@@ -79,17 +79,29 @@
 
 # 1.5.6 원소 접근
 
+# import numpy as np
+# X = np.array([[51, 55], [14, 19], [0, 4]])
+# print(X)
+# print("X[0] : ", X[0])
+# print("X[0][1] : ", X[0][1])
+
+# for row in X:
+#     print(row)
+
+# X = X.flatten()
+# print(X)
+# print(X[np.array([0, 2, 4])])
+# print(X>15)
+# print(X[X>15])
+
+# 1.6.1 단순한 그래프 그리기
 import numpy as np
-X = np.array([[51, 55], [14, 19], [0, 4]])
-print(X)
-print("X[0] : ", X[0])
-print("X[0][1] : ", X[0][1])
+import matplotlib.pyplot as plt
 
-for row in X:
-    print(row)
+# 데이터 준비
+x = np.arange(0, 6, 0.1)  # 0에서 6까지 -.1 간격으로 생성
+y = np.sin(x)
 
-X = X.flatten()
-print(X)
-print(X[np.array([0, 2, 4])])
-print(X>15)
-print(X[X>15])
+# 그래프 그리기
+plt.plot(x, y)
+plt.show()
