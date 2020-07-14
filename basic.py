@@ -87,3 +87,9 @@ print("X[0][1] : ", X[0][1])
 
 for row in X:
     print(row)
+
+X = X.flatten()
+print(X)
+print(X[np.array([0, 2, 4])])
+print(X>15)
+print(X[X>15])
